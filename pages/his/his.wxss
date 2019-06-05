@@ -1,0 +1,9 @@
+/* pages/his/his.wxss */
+.wrapper{
+  font-family: MicroSoft Yahei;
+  background-color: #ff6f7c;
+  background-size:100% 100%;
+}
+.card{
+  opacity: 0.9;
+}

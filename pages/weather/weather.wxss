@@ -1,0 +1,93 @@
+
+.wrapper{
+  width:100%;
+  height:100%;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  top:0;
+  left:0;
+  padding:50rpx;
+  font-family: MicroSoft Yahei;
+  font-size: 24rpx;
+  color: #ffffff;
+  background-image:url('http://i2.bvimg.com/686943/52dcdabba89dbb43.png');
+  background-size:100% 100%;
+}
+.now{
+  height:60%;
+  color:#ffffff;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  margin:0 auto;
+  margin-top:3%;
+}
+ .city{
+   margin-top:10px;
+   font-size:60rpx;
+ }
+ .type{
+   margin-top:10px;
+ }
+ .wind{
+   margin-top:10px;
+   font-size: 35rpx;
+ }
+.tmp{
+  margin-top:10px;
+  font-size: 35rpx;
+}
+
+.now-exp{
+  display: block;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height:150%;
+  text-align: center;
+}
+.now-tmp{
+  flex-grow:  1;/*表示剩余的空间都分配给该元素*/
+}
+
+.exp-item{
+  font-size: 28rpx;
+  text-align: left;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.item-sp{
+  height:5rpx;
+  width:100%;
+  background-color: #fff;
+}
+
+.forecast{
+  margin-top:60rpx;
+  width:90%;
+  font-size:30rpx;
+  position: fixed;
+}
+
+
+.cast-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+  padding: 50rpx 10rpx;
+}
+
+.bgImg{
+  position: relative;
+  height:100%;
+  width:100%;
+  margin:0 auto;
+  top:0;
+}
+.bgImg image{
+  width:100%;
+  height:100%;
+  margin:0 auto;
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/instrument/instrument",
+    "pages/weather/weather",
+    "pages/news/news",
+    "pages/classroom/classroom",
+    "pages/logs/logs",
+    "pages/more/more",
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/post/post",
+    "pages/bus/bus",
+    "pages/hot/hot",
+    "pages/his/his"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3498db",
+    "navigationBarTitleText": "教室君",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "backgroundColor": "#3498db",
+    "color": "#DCEDC8",
+    "selectedColor": "#DCEDC8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classroom/classroom",
+        "text": "查教室"
+      },
+      {
+        "pagePath": "pages/instrument/instrument",
+        "text": "实用工具"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

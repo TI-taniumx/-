@@ -1,0 +1,11 @@
+<!--pages/his/his.wxml-->
+<view class="wrapper">
+<view class="card">
+<view wx:for="{{his.data}}" wx:key="item">
+<i-card title="{{item.title}}" extra="" thumb="{{item.img}}" >
+    <view slot="content">{{item.date}}</view>
+    <view slot="footer"></view>
+</i-card>
+</view>
+</view>
+</view>

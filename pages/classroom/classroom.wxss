@@ -1,0 +1,41 @@
+.item-container{
+  margin-top: 5px;
+}
+.demo-container{
+	width:50vw;
+	height: 100vh;
+	background:#fff;
+  text-align: center;
+  opacity: 0.9;
+}
+page {
+  font-size: 14px;
+  color: #333
+}
+.table {
+  border:1px solid #5cadff;
+  border-right: 0;
+  border-bottom: 0;
+  width: 100%;
+}
+.tr {
+  width: 99.8%;
+  display: flex;
+  justify-content: space-between;
+}
+.th,.td {
+  padding: 12px;
+  border-bottom: 1px solid #2b85e4;
+  border-right: 1px solid #2b85e4;
+  text-align: center;
+  width:100%
+}
+.th {
+  font-weight: 400;
+  background-color: #5cadff
+}
+.img{
+  width:18vw;
+	height: 6vh;
+
+}

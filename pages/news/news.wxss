@@ -1,0 +1,20 @@
+/* pages/news/news.wxss */
+.wrapper{
+  font-family: MicroSoft Yahei;
+  background-color: #a8c0ff;
+  background-size:100% 100%;
+}
+.card{
+  opacity: 0.9;
+}
+.demo-container{
+	width:50vw;
+	height: 100vh;
+	background:#fff;
+  text-align: center;
+  opacity: 0.9;
+}
+.demo{
+  margin-top: -22rpx;
+  background-color: #a8c0ff;
+}

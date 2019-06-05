@@ -1,0 +1,24 @@
+<!--pages/news/news.wxml-->
+<view class="wrapper">
+<view class="demo">
+    <i-button bind:click="toggleLeft1" type="info">新闻分类</i-button>
+    <i-drawer mode="left" visible="{{showLeft1}}" bind:close="toggleLeft1">
+        <view class="demo-container">
+            (单击右侧关闭)
+            <i-button bind:click="sh" type="info">社会</i-button>
+            <i-button bind:click="gj" type="info">国际</i-button>
+            <i-button bind:click="ty" type="info">体育</i-button>
+            <i-button bind:click="kj" type="info">科技</i-button>
+            <i-button bind:click="ss" type="info">时尚</i-button>
+        </view>
+    </i-drawer>
+</view>
+<view class="card">
+<view wx:for="{{news.result.data}}" wx:key="item">
+<i-card  extra="{{item.title}}" thumb="{{item.thumbnail_pic_s}}" >
+    <view slot="content">{{item.date}}</view>
+    <view slot="footer">{{item.category}}</view>
+</i-card>
+</view>
+</view>
+</view>

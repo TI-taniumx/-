@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="wrapper">
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="weatherwrap" bindtap='gotoweather'>
+    <!--显示当天的天气信息-->
+    <view class="info">
+      <!--城市名称 当前日期-->
+      <view class="city">{{weather.currentCity}} {{weatherData[0].date}}</view>
+      <!--当天温度-->
+      <view class="temp">{{weatherData[0].temperature}}</view>
+      <!--其他描述-->
+      <view class="weather">
+        <view>{{weatherData[0].weather}}</view>
+        <view>{{weatherData[0].wind}}</view>
+        <view>PM2.5: {{weather.pm25}}</view>
+      </view>
+      <view class="life" style='text-indent:1em;'>{{weather.index[0].des}}</view>
+    </view>
+  </view>
+  <view class="weatherwrap"bindtap="gotohis">
+  <view class="content">
+  <view class="city"  >历史上的今天(轻触了解更多)</view>
+  <view style='text-indent:0.75em;'>{{his.data[3].date}}，{{his.data[3].title}}。</view>
+  </view>
+  </view>
+  <view class="weatherwrap"bindtap="gotonews">
+  <view class="content">
+  <view class="city">今日头条(轻触了解更多)</view>
+  <view style='text-indent:0.75em;'>{{news.result.data[9].title}}。</view>
+  </view>
+  </view>
+  </view>
+  

@@ -1,0 +1,39 @@
+.button{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #5cadff;
+}
+.aon{
+position: absolute;
+white-space:nowrap;/* 防止向下换行*/
+animation-timing-function: linear;
+animation-fill-mode: none;
+}
+.doommview{
+  z-index: 3;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+
+@keyframes first{
+  from{left: 100%; }
+  to{left: -100%;}
+}
+page{
+  background-image:url('http://i1.bvimg.com/686943/6a648c7e7d2c1b79.png');
+  background-size: 100% 100%;
+}
+.more{
+  color: #fff;
+  text-align: center;
+  font-family: MicroSoft Yahei;
+  align-items: center;
+}
+
+.imagesize{
+display:flex;                    
+justify-content: center;        
+}

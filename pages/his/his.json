@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-card": "../../dist/card/index"
+  },
+  "navigationBarTitleText": "历史上的今天",
+  "navigationBarBackgroundColor": "#ff6f7c"
+}

@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "i-load-more": "../../dist/load-more/index"
+  },
+  "usingComponents": {
+    "i-spin": "../../dist/spin/index"
+  }
+}

@@ -1,0 +1,40 @@
+<view class="demo">
+    <i-button bind:click="toggleLeft1" type="info">选择教学楼</i-button>
+    <i-drawer mode="left" visible="{{showLeft1}}" bind:close="toggleLeft1">
+        <view class="demo-container">
+            (单击右侧关闭)
+            <i-button bind:click="sortboyi" type="info">博一</i-button>
+            <i-button bind:click="sortboer" type="info">博二</i-button>
+            <i-button bind:click="sortbosan" type="info">博三</i-button>
+            <i-button bind:click="sortbosi" type="info">博四</i-button>
+            <i-button bind:click="sortbowu" type="info">博五</i-button>
+            <i-button bind:click="cancel" type="info">取消筛选</i-button>
+        </view>
+    </i-drawer>
+</view>
+<view class="demo">
+    <i-button bind:click="toggleLeft2" type="info">选择区域</i-button>
+    <i-drawer mode="left" visible="{{showLeft2}}" bind:close="toggleLeft2">
+        <view class="demo-container">
+            (单击右侧关闭)
+            <i-button bind:click="sorta" type="info">A区</i-button>
+            <i-button bind:click="sortb" type="info">B区</i-button>
+            <i-button bind:click="sortc" type="info">C区</i-button>
+            <i-button bind:click="cancel1" type="info">取消筛选</i-button>
+        </view>
+    </i-drawer>
+</view>
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th">教室</view>
+            <view class="th">状态</view>
+            <view class="th">当前人数</view>
+        </view>
+        <view class="tr" wx:for="{{addlist}}" wx:key="item">
+            <view class="td">博{{item.name}}</view>
+            <view class="td">{{item.cs}}</view>
+            <view class="td">{{item.pplt}}</view>
+        </view>
+    </view>
+</view>

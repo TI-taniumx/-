@@ -1,0 +1,37 @@
+<!--pages/movies/movies.wxml-->
+<view class="wrapper">
+<view class="card">
+<i-card title="天气" extra="冷暖自知" thumb="http://i1.bvimg.com/686943/11810366f29d34fb.png"  bindtap='gotoweather'>
+    <view slot="footer" class='txt'>查查天气吧</view>
+</i-card>
+<i-card title="电影" extra="看你所想" thumb="http://i1.bvimg.com/686943/39f6f643c904490c.png"  bindtap='gotomovie'>
+    <view slot="content"></view>
+    <view slot="footer" class='txt'>看看最近有什么好片</view>
+</i-card>
+<i-card title="热水" extra="多喝热水" thumb="http://i1.bvimg.com/686943/db0012b0f0954867.png"  
+bindtap="gotohot">
+    <view slot="content"></view>
+    <view slot="footer" class='txt'>看看去哪接热水</view>
+</i-card>
+<i-card title="校车" extra="准时上车" thumb="http://i1.bvimg.com/686943/704743efd1d6c103.png" 
+bindtap='gotobus' >
+    <view slot="content"></view>
+    <view slot="footer" class='txt'>查查校车出发到达时间</view>
+</i-card>
+<i-card title="校历" extra="光阴似箭" thumb="http://i1.bvimg.com/686943/a7a43146b3842410.png"
+bindtap='gotopost' >
+    <view slot="content"></view>
+    <view slot="footer" class='txt'>查查假期吧</view>
+</i-card>
+<i-card title="历史上的今天" extra="古今皆通" thumb="http://i1.bvimg.com/686943/421ee655f2f07c83.png"
+bindtap='gotohis' >
+    <view slot="content"></view>
+    <view slot="footer" class='txt'>看看历史上的今天发生了什么吧</view>
+</i-card>
+<i-card title="今日头条" extra="纵观天下" thumb="http://i1.bvimg.com/686943/4b1a53efb574aa67.png"
+bindtap='gotonews' >
+    <view slot="content"></view>
+    <view slot="footer" class='txt'>新闻速览</view>
+</i-card>
+</view>
+</view>

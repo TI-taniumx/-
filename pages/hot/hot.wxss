@@ -1,0 +1,12 @@
+/* pages/hot/hot.wxss */
+/*.wrapper{
+  font-family: MicroSoft Yahei;
+  background-size:100% 100%;
+}*/
+page{
+  background-color: #ff8f56;
+  background-size:100% 100%;
+}
+.p{
+  opacity: 0.5;
+}

@@ -1,0 +1,38 @@
+<!--pages/hot/hot.wxml-->
+<view class='p'>
+<i-panel class="cell-panel-demo" title="教一">
+    <i-cell title="B区一楼  B区二楼  B区四楼" value="">
+        <i-icon type="coordinates" slot="icon" />
+    </i-cell>
+</i-panel>
+<i-panel class="cell-panel-demo" title="教二">
+    <i-cell title="B区一楼 B区四楼" value="">
+        <i-icon type="coordinates" slot="icon" />
+    </i-cell>
+</i-panel>
+<i-panel class="cell-panel-demo" title="教三">
+    <i-cell title="A区一楼  B区一楼  B区四楼" value="">
+        <i-icon type="coordinates" slot="icon" />
+    </i-cell>
+</i-panel>
+<i-panel class="cell-panel-demo" title="教四">
+    <i-cell title="A区一楼  B区一楼  C区四楼" value="">
+        <i-icon type="coordinates" slot="icon" />
+    </i-cell>
+</i-panel>
+<i-panel class="cell-panel-demo" title="教五">
+    <i-cell title="A区一楼  B区一楼  B区四楼" value="">
+        <i-icon type="coordinates" slot="icon" />
+    </i-cell>
+</i-panel>
+<i-panel class="cell-panel-demo" title="图书馆">
+    <i-cell title="每层南侧洗手间门口" value="">
+        <i-icon type="coordinates" slot="icon" />
+    </i-cell>
+</i-panel>
+<i-panel class="cell-panel-demo" title="办卡去哪？">
+    <i-cell title="二食堂音乐餐厅旁" value="">
+        <i-icon type="coordinates" slot="icon" />
+    </i-cell>
+</i-panel>
+</view>

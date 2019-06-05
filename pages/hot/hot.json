@@ -1,0 +1,9 @@
+{"navigationBarTitleText": "热水",
+ "navigationBarBackgroundColor": "#ff8f56",
+"usingComponents": {
+  "i-cell-group": "../../dist/cell-group/index",
+  "i-cell": "../../dist/cell/index",
+  "i-panel": "../../dist/panel/index",
+  "i-icon": "../../dist/icon/index",
+  "i-switch": "../../dist/switch/index"
+}}

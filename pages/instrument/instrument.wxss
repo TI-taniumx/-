@@ -1,0 +1,13 @@
+/* pages/movies/movies.wxss */
+.txt{
+  color:#515151;
+}
+.wrapper{
+  font-family: MicroSoft Yahei;
+  background-image:url('http://i1.bvimg.com/686943/6a648c7e7d2c1b79.png');
+  background-size:100% 100%;
+}
+.card{
+  opacity: 0.82;
+}
+
